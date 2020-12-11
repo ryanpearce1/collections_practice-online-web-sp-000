@@ -35,11 +35,4 @@ def find_a (array)
   end
 end
 
-def add_s (array)
-  array.map do |word|
-    if word != array[1]
-      word + "s"
-    else 
-      array
-  end
-end
+
