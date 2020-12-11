@@ -35,6 +35,9 @@ def find_a (array)
   end
 end
 
+def sum_array (array)
+  array.select
+
 def add_s (array)
   array.map do |word|
     if word != array[1]
@@ -42,5 +45,4 @@ def add_s (array)
     else 
       word
   end
-end
 end
