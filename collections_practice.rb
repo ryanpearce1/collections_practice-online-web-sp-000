@@ -36,4 +36,4 @@ def find_a (array)
 end
 
 def add_s (array)
-  
+  array.
