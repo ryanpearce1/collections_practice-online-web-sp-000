@@ -36,4 +36,5 @@ def find_a (array)
 end
 
 def add_s (array)
-  array.
+  array.map do |x|
+    if x
