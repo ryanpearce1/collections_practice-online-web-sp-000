@@ -30,7 +30,7 @@ def kesha_maker (array)
 end
 
 def find_a (array)
-  array.each do |letter|
+  array.select do |letter|
     letter[0] = "a"
   end
 end
