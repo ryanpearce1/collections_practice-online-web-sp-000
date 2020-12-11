@@ -20,7 +20,5 @@ def swap_elements (array)
 end
 
 def reverse_array
-  array.sort_by do |x|
-    x.reverse
+  array.reverse
   end
-end
