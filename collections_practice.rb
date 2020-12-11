@@ -36,5 +36,5 @@ def find_a (array)
 end
 
 def add_s (array)
-  array.map do |x|
-    if x
+  array.map do |word|
+    if word[1] != 
